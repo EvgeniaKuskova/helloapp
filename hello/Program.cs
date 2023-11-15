@@ -5,13 +5,13 @@
     public static void Main(string[] args)
     {
       System.Console.WriteLine("hello everyone");
-      GreetWhite();
-      GreetBlack();
     }
 
     public static void GreetWhite()
     {
       System.Console.WriteLine("hello white");
+      GreetWhite();
+      GreetBlack();
     }
 
     public static void GreetBlack()
